@@ -1,0 +1,38 @@
+.img-cta {
+  position: relative;
+  padding: 0;
+  margin-bottom: 160px;
+
+  .img-cta-bg {
+    max-width: 100%;
+  }
+
+  .floating-img-cta-content {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .img-cta-content-wrapper {
+      background-color: $white;
+      padding: 36px;
+      margin-left: 60px;
+
+      .cta-title {
+        font-size: 30px;
+        font-weight: bold;
+      }
+  
+      .cta-sub {
+        font-size: 16px;
+      }
+
+      .primary-btn {
+        margin-top: 24px;
+      }
+    }
+  }
+}

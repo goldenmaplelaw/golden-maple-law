@@ -1,0 +1,40 @@
+.navbar-expand-lg {
+  height: 100px;
+  background-color: none;
+
+  a {
+    font-family: $primary-font;
+    text-decoration: none;
+    color: $primary-black;
+    padding: 22px;
+
+    &:hover,
+    &:focus {
+      color: $primary-blue;
+    }
+  }
+
+  .drop-down {
+    a {
+      font-family: $primary-font;
+      text-decoration: none;
+      color: $primary-black !important;
+      padding-left: 22px;
+      padding-right: 22px;
+
+      &:hover,
+      &:focus {
+        color: $primary-blue !important;
+      }
+    }
+  }
+
+  .logo-1 {
+    height: 65px;
+    width: 320px;
+  }
+
+  .nav-item {
+    margin-right: 18px;
+  }
+}
