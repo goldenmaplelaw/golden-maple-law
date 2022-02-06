@@ -20,7 +20,7 @@ const Hero = ({ imgName, title, subTitle }: Props) => {
       <>
         <Row className="hero">
           <Col>
-            <Image src={(`${imgName}.png`)} className="hero-bg-img" />
+            <Image src={(`static/${imgName}.png`)} className="hero-bg-img" />
           </Col>
           <div className="floating-hero-content">
             <h1 className="hero-title">{title}</h1>

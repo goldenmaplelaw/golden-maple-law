@@ -21,7 +21,7 @@ const ImgCTA = ({ imgName, title, subTitle, primaryBtn, primaryBtnPath }: Props)
       <>
         <Row className="img-cta">
           <Col>
-            <Image src={(`${imgName}.png`)} className="img-cta-bg" />
+            <Image src={(`static/${imgName}.png`)} className="img-cta-bg" />
           </Col>
           <div className="floating-img-cta-content">
             <div className="img-cta-content-wrapper">
