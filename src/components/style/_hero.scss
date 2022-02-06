@@ -1,30 +1,59 @@
 .hero {
   position: relative;
   padding: 0;
-  margin-bottom: 160px;
+  margin-bottom: 75px;
+  flex-direction: column-reverse;
 
   .hero-bg-img {
     max-width: 100%;
   }
 
   .floating-hero-content {
-    position: absolute;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 16px;
 
     .hero-title {
-      font-size: 80px;
+      font-size: 22px;
       font-weight: bold;
     }
 
     .hero-sub {
-      font-size: 30px;
+      font-size: 18px;
       font-weight: bold;
-      margin-bottom: 75px;
+      text-align: center;
+      width: 75%;
     }
   }
+}
+
+//small desktop
+@media screen and (min-width: 1024px) {
+  .hero {
+    margin-bottom: 160px;
+
+    .floating-hero-content {
+      position: absolute;
+      padding-bottom: 0;
+
+      .hero-title {
+        font-size: 80px;
+      }
+
+      .hero-sub {
+        font-size: 30px;
+        margin-bottom: 75px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+//tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
 }

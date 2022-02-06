@@ -10,7 +10,7 @@ import {
   Image
 } from 'react-bootstrap';
 
-import NavLogo from '../../images/CaravanLawLogo.svg';
+import NavLogo from '../../images/GM_logo.svg';
 
 const PrimaryNav = () => {
     return (
@@ -28,20 +28,17 @@ const PrimaryNav = () => {
                   <NavDropdown title="Why Golden Maple Law" className="drop-down" id="collasible-nav-dropdown">
                     <Link to="/Investors">Investors</Link>
                     <Link to="/Families">Families</Link>
-                    <Link to="/Companies">Companies</Link>
-                    <NavDropdown.Divider />                
+                    <Link to="/Companies">Companies</Link>               
                   </NavDropdown>
                   <NavDropdown title="Legal Services" className="drop-down" id="collasible-nav-dropdown">
                     <Link to="/Investment">Investment</Link>
                     <Link to="/Immigration">Immigration</Link>
-                    <Link to="/Business">Buisness</Link>
-                    <NavDropdown.Divider />                
+                    <Link to="/Business">Buisness</Link>              
                   </NavDropdown>
                   <NavDropdown title="Company" className="drop-down" id="collasible-nav-dropdown">
                     <Link to="/Our Team">Our Team</Link>
                     <Link to="/Careers">Careers</Link>
-                    <Link to="/Blog">Blog</Link>
-                    <NavDropdown.Divider />                
+                    <Link to="/Blog">Blog</Link>              
                   </NavDropdown>
                   <Link to="/Contact">Contact</Link>
                 </Nav>

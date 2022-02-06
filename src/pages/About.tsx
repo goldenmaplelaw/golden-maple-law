@@ -1,26 +1,24 @@
 import * as React from "react"; 
-import {
-  Container,
-  Col,
-  Row
-} from 'react-bootstrap';
+import { Container, Row, Col } from "react-bootstrap";
+
+import Splash from "../components/misc/Splash";
 
 import Layout from '../layout/Layout';
 
 const About = () => {
-    return (
-      <Layout>
-        <Container>
-          <Row>
-            <Col>
-              <div className="about-page-wrapper">
-                Golden Maple Law About Section
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </Layout>
-    )
+  return (
+    <Layout>
+      <>
+        <Splash
+          title="Under Construction"
+          imgName="undraw_under_construction"
+          buttons
+          primaryBtn="Get Started"
+          secondaryBtn="Book Meeting"
+        />
+      </>
+    </Layout>
+  )
 }
 
 export default About;

@@ -6,11 +6,12 @@ import {
 
 type Props = {
   buttonText: string,
+  buttonPath: string
 }
 
-const SecondaryButton = ({ buttonText }: Props) => {
+const SecondaryButton = ({ buttonText, buttonPath }: Props) => {
     return (
-      <Button variant="secondary" className="secondary-btn">{buttonText}</Button>
+      <Button href={buttonPath} variant="secondary" className="secondary-btn">{buttonText}</Button>
     )
 }
 

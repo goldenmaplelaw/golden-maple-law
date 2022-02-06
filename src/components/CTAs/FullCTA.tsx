@@ -14,10 +14,12 @@ type Props = {
   subTitle?: string,
   buttons?: boolean,
   primaryBtn?: string,
-  secondaryBtn?: string
+  primaryBtnPath?: string,
+  secondaryBtn?: string,
+  secondaryBtnPath?: string,
 }
 
-const FullCTA = ({ title, subTitle, buttons, primaryBtn, secondaryBtn }: Props) => {
+const FullCTA = ({ title, subTitle, buttons, primaryBtn, primaryBtnPath, secondaryBtn, secondaryBtnPath }: Props) => {
     return (
       <Container>
         <Row className="full-cta">
@@ -29,8 +31,8 @@ const FullCTA = ({ title, subTitle, buttons, primaryBtn, secondaryBtn }: Props) 
             {buttons && (
               <div className="full-cta-btns"> 
                 <Row>
-                  <Col><PrimaryButton buttonText={primaryBtn} /></Col>
-                  <Col><SecondaryButton buttonText={secondaryBtn} /></Col>
+                  <Col><PrimaryButton buttonText={primaryBtn} buttonPath={primaryBtnPath} /></Col>
+                  <Col><SecondaryButton buttonText={secondaryBtn} buttonPath={secondaryBtnPath} /></Col>
                 </Row>
               </div>
             )}

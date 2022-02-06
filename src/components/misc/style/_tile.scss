@@ -1,0 +1,50 @@
+.tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: initial;
+  border: 3px solid $primary-yellow;
+  padding: 12px;
+  margin: 24px 0;
+
+  .tile-subject {
+    position: absolute;
+    color: $white;
+    font-weight: bold;
+    padding: 2px 28px;
+    top: -12px;
+    left: 16px;
+    background-color: $primary-yellow;
+  }
+
+  .tile-content-wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+
+    .tile-title {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .tile-sub {
+      margin-top: 12px;
+      font-size: 14px
+    }
+  }
+}
+
+//small desktop
+@media screen and (min-width: 1024px) {
+  .tile {
+    margin: 0;
+    height: 100%;
+    margin: 0;
+  }
+}
+
+//tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}

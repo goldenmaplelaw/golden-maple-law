@@ -8,5 +8,21 @@ html {
 
 .btn {
   white-space: nowrap;
-  padding: 10px;
+  font-size: 12px;
+  margin-top: 12px;
+  padding: 6px;
+}
+
+//small desktop
+@media screen and (min-width: 1024px) {
+  .btn {
+    margin-top: 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+//tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
 }

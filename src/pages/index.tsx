@@ -1,8 +1,11 @@
 import * as React from "react";
 
+import { Container, Row, Col } from "react-bootstrap";
+
 import FullCTA from "../components/CTAs/FullCTA";
 import ImgCTA from "../components/CTAs/ImgCTA";
 import Hero from "../components/Hero";
+import Tile from "../components/misc/Tile";
 
 import "../index.scss";
 import Layout from '../layout/Layout';
@@ -26,9 +29,41 @@ const IndexPage = () => {
         <ImgCTA
           imgName="office-laptop"
           title="Our Services"
-          subTitle="Domain expertise and empathy is what drives our clients’ success. Caravan Law is committed to listening to each unique case and situation to meet the changing needs of business, commuties, and families."
+          subTitle="Domain expertise and empathy is what drives our clients’ success. Golden Maple Law is committed to listening to each unique case and situation to meet the changing needs of business, commuties, and families."
           primaryBtn="Services"
+          primaryBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
         />
+        <Container className="service-tiles">
+          <Row>
+            <Col md={4}>
+              <Tile 
+                subject="Services"
+                title="Immigration Law"
+                subText="Golden Maple Law is committed to making your immigration process smoother with services in permanent and temporary residence applications, admissibility matters, as well as citizenship applications. In cases of refused applications or delayed responses, we can help appeal the Immigration & Refugee Board, as well as provide judicial reviews to the Federal Court."
+                linkBtn="Contact Us"
+                linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+              />
+            </Col>
+            <Col md={4}>
+              <Tile
+                subject="Services" 
+                title="Business and Real Estate Advisory"
+                subText="Our team provides business and real estate legal consultation with respect to business immigration programs. Our team is connected with and resources Shapiro Real Estate & Business Lawyers on transactional matters."
+                linkBtn="Contact Us"
+                linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+              />
+            </Col>
+            <Col md={4}>
+              <Tile
+                subject="Services" 
+                title="Cross-Border Transactions"
+                subText="Golden Maple Law is focused on our mission of connecting people globally. Our team provides services to people currently residing in India, China, and Iran (and surrounding geographic areas such as Dubai, the UAE, and Turkey)."
+                linkBtn="Contact Us"
+                linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+              />
+            </Col>
+          </Row>
+        </Container>
       </>
     </Layout>
   )

@@ -11,11 +11,12 @@ import PrimaryButton from "../../components/buttons/PrimaryButton";
 type Props = {
   imgName: string,
   title: string,
-  subTitle: string
-  primaryBtn: string
+  subTitle: string,
+  primaryBtn: string,
+  primaryBtnPath: string,
 }
 
-const ImgCTA = ({ imgName, title, subTitle, primaryBtn }: Props) => {
+const ImgCTA = ({ imgName, title, subTitle, primaryBtn, primaryBtnPath }: Props) => {
     return (
       <>
         <Row className="img-cta">
@@ -28,7 +29,7 @@ const ImgCTA = ({ imgName, title, subTitle, primaryBtn }: Props) => {
               <span className="cta-sub">{subTitle}</span>
               <div> 
                 <Row>
-                  <Col><PrimaryButton buttonText={primaryBtn} /></Col>
+                  <Col><PrimaryButton buttonText={primaryBtn} buttonPath={primaryBtnPath} /></Col>
                 </Row>
               </div>
             </div>

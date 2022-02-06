@@ -1,16 +1,18 @@
 .img-cta {
   position: relative;
+  flex-direction: column;
   padding: 0;
-  margin-bottom: 160px;
+  margin-bottom: 75px;
 
   .img-cta-bg {
     max-width: 100%;
   }
 
   .floating-img-cta-content {
-    position: absolute;
+    position: initial;
     height: 100%;
-    width: 50%;
+    width: 100%;
+    padding-top: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,8 +20,8 @@
 
     .img-cta-content-wrapper {
       background-color: $white;
-      padding: 36px;
-      margin-left: 60px;
+      border: none;
+      margin: 0px 16px;
 
       .cta-title {
         font-size: 30px;
@@ -35,4 +37,29 @@
       }
     }
   }
+}
+
+//small desktop
+@media screen and (min-width: 1024px) {
+  .img-cta {
+    flex-direction: row;
+    margin-bottom: 160px;
+
+    .floating-img-cta-content {
+      position: absolute;
+      flex-direction: row;
+      width: 50%;
+
+      .img-cta-content-wrapper {
+        padding: 36px;
+        margin-left: 60px;
+        border: 3px solid $primary-yellow;
+      }
+    }
+  }
+}
+
+//tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
 }

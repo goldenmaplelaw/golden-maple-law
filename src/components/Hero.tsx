@@ -3,8 +3,7 @@ import * as React from "react";
 import {
   Row,
   Col,
-  Image,
-  Button
+  Image
 } from 'react-bootstrap';
 
 import PrimaryButton from "../components/buttons/PrimaryButton";
@@ -21,15 +20,15 @@ const Hero = ({ imgName, title, subTitle }: Props) => {
       <>
         <Row className="hero">
           <Col>
-            <Image src={(`static/images/${imgName}.png`)} className="hero-bg-img" />
+            <Image src={(`${imgName}.png`)} className="hero-bg-img" />
           </Col>
           <div className="floating-hero-content">
             <h1 className="hero-title">{title}</h1>
             <span className="hero-sub">{subTitle}</span>
             <div> 
               <Row>
-                <Col><PrimaryButton buttonText="Get Started" /></Col>
-                <Col><SecondaryButton buttonText="Book Meeting" /></Col>
+                <Col><PrimaryButton buttonText="Get Started" buttonPath="mailto:pushkar.prehar@goldenmaplelaw.com" /></Col>
+                <Col><SecondaryButton buttonText="Book Meeting" buttonPath="mailto:pushkar.prehar@goldenmaplelaw.com" /></Col>
               </Row>
             </div>
           </div>

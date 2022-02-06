@@ -3,5 +3,8 @@ export { default as Footer } from './navigation/Footer';
 export { default as Hero } from './Hero';
 export { default as PrimaryButton } from './buttons/PrimaryButton';
 export { default as SecondaryButton } from './buttons/SecondaryButton';
+export { default as LinkButton } from './buttons/LinkButton';
 export { default as FullCTA } from './CTAs/FullCTA';
 export { default as ImgCTA } from './CTAs/ImgCTA';
+export { default as Tile } from './misc/Tile';
+export { default as Splash } from './misc/Splash';
