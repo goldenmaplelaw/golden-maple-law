@@ -21,25 +21,25 @@ const Footer = () => {
             <span className="footer-heading">Why Golden Maple?</span>
             <Nav className="footer-col"
             >
-              <Nav.Link href="">Families</Nav.Link>
-              <Nav.Link href="">Investors</Nav.Link>
-              <Nav.Link href="">Businsses</Nav.Link>
+              <Nav.Link href="/Families">Families</Nav.Link>
+              <Nav.Link href="/Investors">Investors</Nav.Link>
+              <Nav.Link href="/Business">Businsses</Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>
             <span className="footer-heading">Our Services</span>
             <Nav className="footer-col">
-              <Nav.Link href="">Immigration</Nav.Link>
-              <Nav.Link href="">Business Law</Nav.Link>
-              <Nav.Link href="">Investments</Nav.Link>
+              <Nav.Link href="/Immigration">Immigration</Nav.Link>
+              <Nav.Link href="/Business">Business Law</Nav.Link>
+              <Nav.Link href="/Investment">Investments</Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>
             <span className="footer-heading">Our Company</span>
             <Nav className="footer-col">
-              <Nav.Link href="">Our Team</Nav.Link>
-              <Nav.Link href="">Our Blog</Nav.Link>
-              <Nav.Link href="">Careers</Nav.Link>
+              <Nav.Link href="/OurTeam">Our Team</Nav.Link>
+              <Nav.Link href="/Blog">Our Blog</Nav.Link>
+              <Nav.Link href="/Careers">Careers</Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>

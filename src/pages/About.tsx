@@ -1,5 +1,4 @@
 import * as React from "react"; 
-import { Container, Row, Col } from "react-bootstrap";
 
 import Splash from "../components/misc/Splash";
 

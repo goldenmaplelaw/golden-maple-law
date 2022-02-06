@@ -4,10 +4,10 @@ import Splash from "../components/misc/Splash";
 
 import Layout from '../layout/Layout';
 
-const Contact = () => {
+const OurTeam = () => {
     return (
       <Layout>
-         <Splash
+        <Splash
           title="Under Construction"
           imgName="undraw_under_construction"
           buttons
@@ -18,4 +18,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default OurTeam;

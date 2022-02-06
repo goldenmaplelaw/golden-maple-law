@@ -1,24 +1,19 @@
 import * as React from "react"; 
-import {
-  Container,
-  Col,
-  Row
-} from 'react-bootstrap';
+
+import Splash from "../components/misc/Splash";
 
 import Layout from '../layout/Layout';
 
 const Investors = () => {
     return (
       <Layout>
-        <Container>
-          <Row>
-            <Col>
-              <div className="Investment-page-wrapper">
-                Golden Maple Law Investment Services Section
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <Splash
+          title="Under Construction"
+          imgName="undraw_under_construction"
+          buttons
+          primaryBtn="Get Started"
+          secondaryBtn="Book Meeting"
+        />
       </Layout>
     )
 }
