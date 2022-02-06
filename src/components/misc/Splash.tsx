@@ -33,7 +33,7 @@ const Splash = ({ title, subTitle, imgName, buttons, primaryBtn, primaryBtnPath,
           </Col>
         </Row>
         <Row className="splash">
-          <Image src={(`static/${imgName}.png`)} className="splash-img" />
+          <Image src={(`/${imgName}`)} className="splash-img" />
         </Row>
         {buttons && (
           <div className="splash-btns"> 
