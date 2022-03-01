@@ -1,0 +1,13 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 42px 0;
+
+  a {
+    margin-left: 16px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    margin: 80px 0;
+  }
+}

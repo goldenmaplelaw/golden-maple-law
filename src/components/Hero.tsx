@@ -12,7 +12,7 @@ import SecondaryButton from "../components/buttons/SecondaryButton";
 type Props = {
   imgName: string,
   title: string,
-  subTitle: string
+  subTitle?: string
 }
 
 const Hero = ({ imgName, title, subTitle }: Props) => {
@@ -24,7 +24,7 @@ const Hero = ({ imgName, title, subTitle }: Props) => {
           </Col>
           <div className="floating-hero-content">
             <h1 className="hero-title">{title}</h1>
-            <span className="hero-sub">{subTitle}</span>
+            {subTitle && ( <span className="hero-sub">{subTitle}</span> )}
             <div> 
               <Row>
                 <Col><PrimaryButton buttonText="Get Started" buttonPath="mailto:pushkar.prehar@goldenmaplelaw.com" /></Col>

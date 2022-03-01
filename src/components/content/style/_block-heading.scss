@@ -1,0 +1,19 @@
+.block-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+
+  h3 {
+    font-size: 45px;
+    color: $primary-red;
+    text-align: center;
+  }
+
+  @media only screen and ( min-width: 1024px ) {
+    margin-bottom: 160px;
+
+    h3 {
+      font-size: 60px;
+    }
+  }
+}

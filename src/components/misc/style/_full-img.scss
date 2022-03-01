@@ -1,0 +1,18 @@
+.full-img-wrapper {
+  position: relative;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 75px;
+
+  .full-img {
+    max-width: 100%;
+  }
+}
+
+//small desktop
+@media screen and (min-width: 1024px) {
+  .full-img-wrapper {
+    flex-direction: row;
+    margin-bottom: 160px;
+  }
+}

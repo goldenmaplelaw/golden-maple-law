@@ -2,37 +2,52 @@ import * as React from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import FullCTA from "../components/CTAs/FullCTA";
+import BlockHeading from "../components/content/BlockHeading";
 import ImgCTA from "../components/CTAs/ImgCTA";
-import Hero from "../components/Hero";
 import Tile from "../components/misc/Tile";
+import IconTile from "../components/misc/IconTile";
+import ButtonGroup from "../components/buttons/ButtonGroup";
 
 import "../index.scss";
 import Layout from '../layout/Layout';
 
 // markup
-const IndexPage = () => {
+const Services = () => {
   return (
     <Layout>
       <>
-        <Hero 
-          imgName="humber-river"
-          title="Connecting People Globally"
-          subTitle="We're helping families thrive across the world with our customized, affordable legal services."
-        />
-        <FullCTA 
-          title="Making the immigration process easier. So you can focus on life."
-          buttons
-          primaryBtn="Why Golden Maple?"
-          secondaryBtn="Our Story"
-        />
+        <Container className="services">
+          <Row>
+            <BlockHeading textString="Our Services" />
+          </Row>
+          <Row>
+            <Col md={4}>
+              <IconTile imgName="international-icon" title="Immigration Law"/>
+            </Col>
+            <Col md={4}>
+              <IconTile imgName="buisness-icon" title="Business Law"/>
+            </Col>
+            <Col md={4}>
+              <IconTile imgName="invest-icon" title="Investment Law"/>
+            </Col>
+          </Row>
+          <Row>
+            <ButtonGroup 
+              priButtonText="Get Started"
+              priButtonPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+              secButtonText="Book Meeting"
+              secButtonPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+            />
+          </Row>
+        </Container>
         <ImgCTA
-          imgName="office-laptop"
-          title="Our Services"
-          subTitle="Domain expertise and empathy is what drives our clients’ success. Golden Maple Law is committed to listening to each unique case and situation to meet the changing needs of business, commuties, and families."
-          primaryBtn="Services"
-          primaryBtnPath="/Services/"
+          imgName="office-working"
+          title="Take your life where you want to go."
+          subTitle="Our team is dedicated to our mission of connecting people globally and our vision of making the immigration process easier. If you’re interested in working with a team of legal exports, then we’re here to help start your new life."
+          primaryBtn="Contact"
+          primaryBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
         />
+        <BlockHeading textString="See how people are using our services." />
         <Container className="service-tiles">
           <Row>
             <Col md={4}>
@@ -69,4 +84,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default Services;

@@ -1,0 +1,41 @@
+.our-team {
+  .hero {
+    h1 {
+      color: $black;
+      margin-bottom: 42px;
+    }
+  }
+
+  .container {
+    margin-bottom: 42px;
+  }
+
+  .img-cta {
+    margin: 42px 0;
+
+    h1 {
+      margin-top: 24px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .hero {
+      h1 {
+        color: $white;
+        margin-bottom: 42px;
+      }
+    }
+
+    .container {
+      margin-bottom: 160px;
+    }
+
+    .img-cta {
+      margin: 0px 16px;
+
+      h1 {
+        margin-top: 0;
+      }
+    }
+  }
+}

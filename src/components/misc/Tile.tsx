@@ -11,18 +11,18 @@ type Props = {
 }
 
 const Tile = ({ subject, title, subText, linkBtn, linkBtnPath }: Props) => {
-    return (
-      <div className="tile">
-        <div className="tile-subject">{subject}</div>
-        <div className="tile-content-wrapper">
-          <span className="tile-title">{title}</span>
-          <span className="tile-sub">{subText}</span>
-        </div>
-        <div className="tile-btn-wrapper">
-          <LinkButton href={linkBtnPath} buttonText={linkBtn} />
-        </div>
+  return (
+    <div className="tile">
+      <div className="tile-subject">{subject}</div>
+      <div className="tile-content-wrapper">
+        <span className="tile-title">{title}</span>
+        <span className="tile-sub">{subText}</span>
       </div>
-    )
+      <div className="tile-btn-wrapper">
+        <LinkButton buttonPath={linkBtnPath} buttonText={linkBtn} />
+      </div>
+    </div>
+  )
 }
 
 export default Tile;

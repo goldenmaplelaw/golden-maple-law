@@ -8,7 +8,7 @@ const Careers = () => {
     return (
       <Layout>
         <Splash
-          title="Under Construction"
+          title="No Current Openings"
           imgName="undraw_under_construction"
           buttons
           primaryBtn="Get Started"
