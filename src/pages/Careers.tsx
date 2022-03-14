@@ -9,10 +9,7 @@ const Careers = () => {
       <Layout>
         <Splash
           title="No Current Openings"
-          imgName="undraw_under_construction"
-          buttons
-          primaryBtn="Get Started"
-          secondaryBtn="Book Meeting"
+          imgName="careers"
         />
       </Layout>
     )

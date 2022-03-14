@@ -1,7 +1,6 @@
 import * as React from "react";
-
 import { Container, Row, Col } from "react-bootstrap";
-
+import BlockHeading from "../components/content/BlockHeading";
 import FullCTA from "../components/CTAs/FullCTA";
 import ImgCTA from "../components/CTAs/ImgCTA";
 import Hero from "../components/Hero";
@@ -33,6 +32,7 @@ const IndexPage = () => {
           primaryBtn="Services"
           primaryBtnPath="/Services/"
         />
+        <BlockHeading textString="See how people are using our Services." />
         <Container className="service-tiles">
           <Row>
             <Col md={4}>

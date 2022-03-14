@@ -7,11 +7,12 @@ import {
 type Props = {
   title: string,
   imgName: string,
-  // link?: string,
-  // linkPath?: string,
+  link?: boolean,
+  linkPath?: string,
+  linkString?: string
 }
 
-const IconTile = ({ title, imgName }: Props) => {
+const IconTile = ({ title, imgName, link, linkPath, linkString }: Props) => {
     return (
       <div className="icon-tile">
         <div className="icon-tile-icon">
@@ -20,6 +21,11 @@ const IconTile = ({ title, imgName }: Props) => {
         <div className="icon-tile-content-wrapper">
           <span className="icon-tile-title">{title}</span>
         </div>
+        {link && (
+          <div className="icon-tile-link-wrapper">
+            <a href={linkPath} className="icon-tile-link">{linkString}</a>
+          </div>
+        )}
       </div>
     )
 }

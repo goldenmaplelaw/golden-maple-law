@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, ListGroup } from "react-bootstrap";
 
 import BlockHeading from "../components/content/BlockHeading";
 import ImgCTA from "../components/CTAs/ImgCTA";
@@ -72,7 +72,7 @@ const Services = () => {
               <Tile
                 subject="Services" 
                 title="Cross-Border Transactions"
-                subText="Golden Maple Law is focused on our mission of connecting people globally. Our team provides services to people currently residing in India, China, and Iran (and surrounding geographic areas such as Dubai, the UAE, and Turkey)."
+                subText="Golden Maple Law is focused on our mission of connecting people globally. Our team provides services to people currently residing in India, China, Korea, Ukraine, and Iran (and surrounding geographic areas such as Dubai, the UAE, and Turkey)."
                 linkBtn="Contact Us"
                 linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
               />
@@ -80,6 +80,75 @@ const Services = () => {
           </Row>
         </Container>
       </>
+    <Container className="service-title">
+       <BlockHeading textString="Our team is here to help." /> 
+          <Row>
+                <ButtonGroup 
+                  priButtonText="Get Started"
+                  priButtonPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                  secButtonText="Book Meeting"
+                  secButtonPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                />
+              </Row>
+       <h2>Looking to study, work, or immigrate to Canada? Our team can provide you with temporary or permanent residence applications, as well as appeals and inadmissibility services.</h2>
+    </Container>
+
+    <Container className="service-list">
+     <h3>Permanent Resident Applications</h3>
+        <ul>
+            <li>Economic Classes</li>
+            <li>Startup-visa</li>
+            <li>Express Entry</li>
+            <li>Quebec immigration</li>
+            <li>Humanitarian and Compassionate Applications</li>
+            <li>International adoptions</li>
+            <li>Caregivers</li>
+        </ul>
+        
+        <h3> Admissibility Matters</h3>
+        <ul>
+            <li>Admissibility Hearings and Appeals</li>
+            <li>Misrepresentation</li>
+            <li>Procedural Fairness Letters</li>
+            <li>Removal Orders</li>
+            <li>Criminal Inadmissibility</li>
+        </ul>
+
+        <h3>Temporary Resident Applications and Extensions</h3>
+        <ul>
+          <li>Temporary Resident Visas</li>
+          <li>Study Permits</li>
+          <li>Work Permits</li>
+          <li>Visitor Visas and Visitor Records</li>
+          <li>Extensions and Restoration Applications</li>
+        </ul>
+
+        <h3>Removals and Deportations</h3>
+        <ul>
+          <li>Removal Orders</li>
+          <li>Removal Order Appeals</li>
+          <li>Residency Obligations Appeals</li>
+          <li>Deferral Request to CBSA</li>
+          <li>Stays of Removal (Federal Court)</li>
+        </ul>
+
+        <h3>Citizenship</h3>
+        <ul>
+          <li>Citizenship Applications Grants</li>
+          <li>Federal Court Citizenship Matters</li>
+          <li>Loss of Citizenship</li>
+          <li>Passport Issues</li>
+        </ul>
+
+        <h3>Refugees</h3>
+        <ul>
+          <li>Basis of Claims Forms</li>
+          <li>Refugee Protection Hearings</li>
+          <li>Refugee Appeals</li>
+          <li>Loss of Refugee Status</li>
+          <li>Overseas Resettlement Applications</li>
+        </ul>
+      </Container>
     </Layout>
   )
 }
