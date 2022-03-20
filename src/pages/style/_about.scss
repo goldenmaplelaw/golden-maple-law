@@ -1,0 +1,12 @@
+.service-desc {
+  margin-bottom: 24px;
+  p {
+    color: $primary-red;
+    font-size: 30px;
+    padding-bottom: 15px
+  }
+
+  @media only screen and (min-width: 1024px) {
+    margin-bottom: 160px;
+  }
+}

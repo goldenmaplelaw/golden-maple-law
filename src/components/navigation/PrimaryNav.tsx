@@ -25,10 +25,9 @@ const PrimaryNav = () => {
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                   <Link className="nav-item" to="/About/">About</Link>
-                  <Link className="nav-item" to="/WhyGoldenMaple/">Why Golden Maple Law</Link>             
+                  <Link className="nav-item" to="/OurTeam/">Our Team</Link>             
                   <Link className="nav-item" to="/Services/">Services</Link>           
                   <NavDropdown title="Company" className="drop-down" id="collasible-nav-dropdown">
-                    <Link to="/OurTeam/">Our Team</Link>
                     <Link to="/Careers/">Careers</Link>
                     <Link to="/Blog/">Blog</Link>              
                   </NavDropdown>

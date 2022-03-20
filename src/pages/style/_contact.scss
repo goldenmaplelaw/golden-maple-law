@@ -13,22 +13,35 @@
       display: none;
     }
 
-    .icon-tile-icon {
-      margin-bottom: 48px;
-    }
+    .icon-tile {
+      flex-direction: row;
+      justify-content: flex-start;
+      padding: 0 16px;
 
-    .icon-tile-content-wrapper,
-    .icon-tile-link-wrapper {
-      font-size: 24px;
-      margin-bottom: initial;
-      text-align: left;
-      min-height: 50px;
+      .icon-tile-icon {
+        margin-bottom: 48px;
 
-      span,
-      a {
+        img {
+          width: 48px;
+          height: initial;
+        }
+      }
+  
+      .icon-tile-content-wrapper,
+      .icon-tile-link-wrapper {
         font-size: 24px;
-        line-height: 1;
-        color: $black;
+        margin-bottom: initial;
+        margin-left: 24px;
+        padding-top: 2px;
+        text-align: left;
+        min-height: 50px;
+  
+        span,
+        a {
+          font-size: 24px;
+          line-height: 1;
+          color: $black;
+        }
       }
     }
   }
@@ -41,8 +54,19 @@
     }
 
     .office-contact {
-      
-      
+      .icon-tile {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0;
+  
+        .icon-tile-icon {
+          margin-bottom: 48px;
+  
+          img {
+            width: 48px;
+          }
+        }
+      }
     }
   }
 }
