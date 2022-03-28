@@ -13,7 +13,7 @@ type Props = {
 const TextBlock = ({ textString, className }: Props) => {
     return (
       <Row className="text-wrapper">
-        <Col className={className} md={{span:8, offset:1}}>
+        <Col className={className} md={{span:8, offset:2}}>
           <span className="text-content">
             {textString}
           </span>

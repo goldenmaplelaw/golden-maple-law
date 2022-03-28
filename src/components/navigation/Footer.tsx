@@ -60,9 +60,8 @@ const Footer = () => {
           <Col md={6}>
             <Nav className="footer-col-2">
               <Nav.Link href="">Privacy Policy</Nav.Link>
-              <Nav.Link href="">Copyright</Nav.Link>
-              <Nav.Link href="">Disclaimer</Nav.Link>
-              <Nav.Link href="">Terms of Service</Nav.Link>
+              <Nav.Link href="/Disclaimer/">Disclaimer</Nav.Link>
+              <Nav.Link href="/Accessibility/">Accessibility</Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>
