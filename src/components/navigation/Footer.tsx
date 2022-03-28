@@ -8,8 +8,6 @@ import {
   Image
 } from 'react-bootstrap';
 
-import PrimaryButton from '../buttons/PrimaryButton';
-
 import NavLogo from '../../images/GM_logo.svg';
 
 const Footer = () => {
@@ -59,7 +57,7 @@ const Footer = () => {
           </Col>
           <Col md={6}>
             <Nav className="footer-col-2">
-              <Nav.Link href="">Privacy Policy</Nav.Link>
+              <Nav.Link href="/Privacy/">Privacy Policy</Nav.Link>
               <Nav.Link href="/Disclaimer/">Disclaimer</Nav.Link>
               <Nav.Link href="/Accessibility/">Accessibility</Nav.Link>
             </Nav>
