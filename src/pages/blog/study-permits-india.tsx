@@ -1,5 +1,5 @@
 import * as React from "react"; 
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import { TextBlock } from "../../components";
 
@@ -10,7 +10,11 @@ const StudyPermitsIndia = () => {
     <Layout>
       <>
         <Container className="article-wrapper">
-          <h1>Study Permits from India</h1>
+          <Row>
+            <Col md={{span:8, offset:2}}>
+              <h1>Study Permits from India</h1>
+            </Col>
+          </Row>
           <TextBlock textString="On receipt of a letter of acceptance from a school in Canada, the most common challenge that applicant’s face is refusal of study visa."/>
           <TextBlock textString="This situation is the reality of more than half of the applicants who applied for a Canadian study permit in 2020 as Indian citizens. Based on data received from the Government of Canada for the period January 1, 2020 to November 30, 2020, approximately 57% of all study permit applications from India were refused. In comparison, the refusal rate for Indian citizens applying for study permits in 2019 was 36%." />
           <TextBlock textString="This is the reality, despite Indian residents being eligible for faster processing through the Student Direct Stream, with an (IRCC hopeful targeted) 20-day turnaround time, if they can fulfil certain requirements. These requirements include, but are not limited to: having a Guaranteed Investment Certificate (GIC) of CAD 10,000.00, being a resident outside of Canada when applying, presenting a letter of acceptance from a designated post-secondary learning institution, providing proof of payment of the first-year tuition, and scoring high on the English language test." />

@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="social-wrapper">
               <Nav.Link href=""><i className="fab fa-facebook-square"></i></Nav.Link>
               <Nav.Link href=""><i className="fab fa-instagram"></i></Nav.Link>
-              <Nav.Link href=""><i className="fab fa-github"></i></Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/company/golden-maple-law-llp/about/" target="_blank"><i className="fab fa-linkedin"></i></Nav.Link>
             </div>
           </Col>
         </Row>

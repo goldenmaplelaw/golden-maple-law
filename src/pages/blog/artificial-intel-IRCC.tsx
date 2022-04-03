@@ -1,5 +1,5 @@
 import * as React from "react"; 
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import { TextBlock } from "../../components";
 
@@ -10,7 +10,12 @@ const ArtificialIntelIRCC = () => {
     <Layout>
       <>
         <Container className="article-wrapper">
-          <h1>Artificial Intelligence in IRCC</h1>
+
+          <Row>
+            <Col md={{span:8, offset:2}}>
+              <h1>Artificial Intelligence in IRCC</h1>
+            </Col>
+          </Row>
           <TextBlock textString="It is admitted by IRCC that Artificial Intelligence is implemented for Temporary Resident Visas (‘TRVs’), specifically in China and India. By way of June 2020 disclosure, we confirm that IRCC has been utilizing these systems for online applications since April 2018 for China, August 2018 for India, and for Visa Application Centre (“VAC”) based applications since January 2020."/>
           <TextBlock textString="It has come to light that there are three Tier processing system in play. This filters the simplest applications (Tier 1), medium complexity applications (Tier 2), and higher complexity applications (Tier 3). While human officers are involved in all three Tiers, Tier 1 allows a model to recommend approval based on analytics, where as Tier 2 and Tier 3 are flagged for manual processing." />
           <TextBlock textString="IRCC claims that the process is only partially automated. The interesting factor, and given we have been as a law firm focusing a lot on India, is how the designated of a Tier 2 file drives the approval rates from the high nineties (%) to 63% for online India apps to 37%  for India VAC applications. Moving to Tier 3, it is only 13% for online India and 5% for India VAC." />
