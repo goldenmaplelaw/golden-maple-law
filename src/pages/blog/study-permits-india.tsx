@@ -1,9 +1,10 @@
 import * as React from "react"; 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 import { TextBlock } from "../../components";
-
+import { FullCTA } from "../../components";
 import Layout from '../../layout/Layout';
+import PrimaryButton from "../../components/buttons/PrimaryButton";
 
 const StudyPermitsIndia = () => {
   return (
@@ -11,8 +12,13 @@ const StudyPermitsIndia = () => {
       <>
         <Container className="article-wrapper">
           <Row>
-            <Col md={{span:8, offset:2}}>
+            <Col md={12}>
               <h1>Study Permits from India</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={{span:10, offset:1}}>
+              <Image src={'/study.png'} className="blog-img" />
             </Col>
           </Row>
           <TextBlock textString="On receipt of a letter of acceptance from a school in Canada, the most common challenge that applicant’s face is refusal of study visa."/>
@@ -21,6 +27,14 @@ const StudyPermitsIndia = () => {
           <TextBlock textString="Although the pandemic and its attendant travel restrictions played a role in the significant rise in Canadian study permit refusals for applications from India, misrepresentation findings involving Indian citizens also contributed to the drop in the number of accepted study permit applications. In Suri v. Canada (Citizenship and Immigration), 2020 FC 86, Justice Mason dismissed an application for judicial review, as the visa officer’s refusal to grant a study permit was reasonable because it was based on misrepresentation by the applicant." />
           <TextBlock textString="The recent case law pertaining to rejected study permit applications from India provides some useful insight. Critically, Indian citizens continue to submit, oftentimes misled by agents and consultants, false documents in their study permit applications." />
           <TextBlock textString="Submitting a fraudulent document that is material to the visa officer’s decision to approve or refuse your application—even if you were unaware that the document was fraudulent or if the document was not prepared by you—will almost always lead an officer to reject your study permit application on the ground of misrepresentation, which carries a five year ban on admissibility and eligibility for permanent residence (s.40 IRPA).  It is important for applicants to remember that they are ultimately responsible for all materials submitted in their study permit applications.  Applicants should also prepare their study plan with care and attention, as submitting a study plan that is vague, generalized, or inconsistent may result in a refusal. It is also important to assess your family ties in your home country. If you have weak family ties in the country where you hold citizenship or reside, an officer may reject your application as it could be an indicator that you will not return to your home country at the end of your stay. Officers are looking carefully at ‘push’ and ‘pull’ factors, those facts which lead you to want to leave India and those factors which draw you into Canada. Especially, if they stand out on the page, you may need to be proactive in addressing them.   However, we have also seen applications being granted for judicial review after a visa officer rejected the study permit application. Although a visa officer’s decision is owed a high level of deference by the court, they must comply with the standards of a reasonable decision: one that is based on an internally coherent and rational chain of analysis and that is justified in relation to the facts and law that constrain the decision maker (Vavilov). A visa officer must engage with the applicant’s evidence and base the explanation of why the application is being refused on an analysis of that evidence. For example, it would be necessary for an officer to explain why an applicant is not considered a bona fide student—and would thus not leave Canada at the end of their authorized stay—based on a single low test score in spoken English." />
+          <FullCTA 
+            title="Need legal assistance? Our team is here to help"
+            buttons
+            primaryBtn="More Articles"
+            primaryBtnPath="/Blog/"
+            secondaryBtn="Our Services"
+            secondaryBtnPath="/Services/"
+          />
         </Container>
       </>
     </Layout>

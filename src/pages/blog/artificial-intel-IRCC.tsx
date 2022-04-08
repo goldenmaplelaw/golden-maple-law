@@ -1,8 +1,9 @@
 import * as React from "react"; 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 import { TextBlock } from "../../components";
-
+import { FullCTA } from "../../components";
+import { PrimaryButton } from "../../components";
 import Layout from '../../layout/Layout';
 
 const ArtificialIntelIRCC = () => {
@@ -12,8 +13,13 @@ const ArtificialIntelIRCC = () => {
         <Container className="article-wrapper">
 
           <Row>
-            <Col md={{span:8, offset:2}}>
+            <Col md={12}>
               <h1>Artificial Intelligence in IRCC</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={{span:10, offset:1}}>
+              <Image src={'/documents.png'} className="blog-img" />
             </Col>
           </Row>
           <TextBlock textString="It is admitted by IRCC that Artificial Intelligence is implemented for Temporary Resident Visas (‘TRVs’), specifically in China and India. By way of June 2020 disclosure, we confirm that IRCC has been utilizing these systems for online applications since April 2018 for China, August 2018 for India, and for Visa Application Centre (“VAC”) based applications since January 2020."/>
@@ -21,6 +27,14 @@ const ArtificialIntelIRCC = () => {
           <TextBlock textString="IRCC claims that the process is only partially automated. The interesting factor, and given we have been as a law firm focusing a lot on India, is how the designated of a Tier 2 file drives the approval rates from the high nineties (%) to 63% for online India apps to 37%  for India VAC applications. Moving to Tier 3, it is only 13% for online India and 5% for India VAC." />
           <TextBlock textString="The deeming of a file Tier 3 appears to make refusal a near surety. What is fascinating is how this information blends usage of “Officer Rules,” the first stage filter which  actually precedes the computerized Three Tier triages and is targeted at cases with higher likelihood of ineligibility or inadmissibility.  The Officer Rules system would be the system utilized at other global visa offices that do not use the computerized AI decision-making of India and China." />
           <TextBlock textString="Looking specifically at the case of India, the Officer Rules system actually approves cases at a much higher rate (53% for online India, and 38% for India VAC).  These rates are in-fact comparable to Tier 2 moderately complex cases – ones that presumably do not contain the serious ineligibility and inadmissibility concerns of Officer Rules or Tier 3 . It suggests that the addition of technology can sway even a moderately complex case into the same outcomes as a hand-pulled out complex case.  Ultimately, this suggests that complete human discretion or time spent assessing factors can be much more favourable than when machines contribute to overall decision-making." />
+          <FullCTA 
+            title="Need legal assistance? Our team is here to help"
+            buttons
+            primaryBtn="More Articles"
+            primaryBtnPath="/Blog/"
+            secondaryBtn="Our Services"
+            secondaryBtnPath="/Services/"
+          />
         </Container>
       </>
     </Layout>

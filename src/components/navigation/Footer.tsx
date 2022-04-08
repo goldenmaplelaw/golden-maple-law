@@ -16,28 +16,33 @@ const Footer = () => {
       <Container>
         <Row className="footer-upper-row">
           <Col md={3}>
-            <span className="footer-heading">Why Golden Maple?</span>
+            <Navbar.Brand href="/">
+              <Image src={NavLogo} className="logo-footer" />
+            </Navbar.Brand>
+          </Col>
+          <Col md={4}>
+            <span className="footer-heading">Contact Us</span>
             <Nav className="footer-col"
             >
-              <Nav.Link href="/Families">Families</Nav.Link>
-              <Nav.Link href="/Investors">Investors</Nav.Link>
-              <Nav.Link href="/Business">Businsses</Nav.Link>
+              <Nav.Link href="tel:6475090893">TEL: 647-509-0893</Nav.Link>
+              <Nav.Link href="mailto:pushkar.prehar@goldenmaplelaw.com">pushkar.prehar@goldenmaplelaw.com</Nav.Link>
+              <Nav.Link href="https://www.google.com/maps/place/333+Sheppard+Ave+E+SUITE+210,+North+York,+ON+M2N+3B3,+Canada/@43.7658614,-79.3924302,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2d4f9f655555:0x6885aff92cc229e4!8m2!3d43.7658614!4d-79.3902415" target="_blank">333 Sheppard Ave East, Suite 210 Toronto, ON M2N 3B3</Nav.Link>
+            </Nav>
+          </Col>
+          <Col md={2}>
+            <span className="footer-heading">Our Company</span>
+            <Nav className="footer-col">
+              <Nav.Link href="/About/">About Us</Nav.Link>
+              <Nav.Link href="/OurTeam/">Our team</Nav.Link>
+              <Nav.Link href="/Blog">Our blog</Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>
             <span className="footer-heading">Our Services</span>
             <Nav className="footer-col">
-              <Nav.Link href="/Immigration">Immigration</Nav.Link>
-              <Nav.Link href="/Business">Business Law</Nav.Link>
-              <Nav.Link href="/Investment">Investments</Nav.Link>
-            </Nav>
-          </Col>
-          <Col md={3}>
-            <span className="footer-heading">Our Company</span>
-            <Nav className="footer-col">
-              <Nav.Link href="/OurTeam">Our Team</Nav.Link>
-              <Nav.Link href="/Blog">Our Blog</Nav.Link>
-              <Nav.Link href="/Careers">Careers</Nav.Link>
+              <Nav.Link href="/Services">Use of Services</Nav.Link>
+              <Nav.Link href="/Services">Resident Applications</Nav.Link>
+              <Nav.Link href="/Services">Citizenship</Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>
@@ -50,12 +55,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Row className="footer-lower-row">
-          <Col md={3}>
-            <Navbar.Brand href="/">
-              <Image src={NavLogo} className="logo-footer" />
-            </Navbar.Brand>
-          </Col>
-          <Col md={6}>
+          <Col md={{span:6, offset:3}}>
             <Nav className="footer-col-2">
               <Nav.Link href="/Privacy/">Privacy Policy</Nav.Link>
               <Nav.Link href="/Disclaimer/">Disclaimer</Nav.Link>
