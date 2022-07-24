@@ -1,7 +1,6 @@
 import * as React from "react"; 
 import {Container, Row, Col } from "react-bootstrap";
 import Hero from "../components/Hero";
-import ButtonGroup from "../components/buttons/ButtonGroup";
 import Layout from '../layout/Layout';
 import BlockHeading from "../components/content/BlockHeading";
 import IconTile from "../components/misc/IconTile";

@@ -10,7 +10,7 @@ import {
   Image
 } from 'react-bootstrap';
 
-import NavLogo from '../../images/GM_logo.svg';
+import NavLogo from '../../images/GM_logo.png';
 
 const PrimaryNav = () => {
     return (

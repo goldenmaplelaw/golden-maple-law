@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Container, Row, Col, ListGroup } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import BlockHeading from "../components/content/BlockHeading";
 import ImgCTA from "../components/CTAs/ImgCTA";

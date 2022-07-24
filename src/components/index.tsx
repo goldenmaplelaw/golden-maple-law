@@ -10,6 +10,7 @@ export { default as ButtonGroup } from './buttons/ButtonGroup';
 
 export { default as FullCTA } from './CTAs/FullCTA';
 export { default as ImgCTA } from './CTAs/ImgCTA';
+export { default as ReviewCTA } from './CTAs/ReviewCTA';
 
 export { default as Tile } from './misc/Tile';
 export { default as Splash } from './misc/Splash';

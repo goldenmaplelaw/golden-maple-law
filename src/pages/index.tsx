@@ -27,7 +27,7 @@ const IndexPage = () => {
         />
         <ImgCTA
           imgName="office-laptop"
-          title="Free consultation - Canadian immigration lawyers"
+          title="Canadian immigration lawyers"
           subTitle="Domain expertise and empathy is what drives our clients’ success. Golden Maple Law is committed to listening to each unique case and situation to meet the changing needs of your business and family."
           primaryBtn="Our Services"
           primaryBtnPath="/Services/"
