@@ -12,7 +12,7 @@ const About = () => {
        <div className="why-golden-maple">
           <div className="contact">
             <Hero 
-              imgName="contact-us"
+              imgName="humber-river"
               title="It all starts with you."
               subTitle="Work with a team that prioritizes you, like family. "
             /> 

@@ -15,9 +15,9 @@ const IndexPage = () => {
     <Layout>
       <>
         <Hero 
-          imgName="humber-river"
-          title="Connecting People Globally"
-          subTitle="Toronto immigration lawyers you can trust."
+          imgName="contact-us"
+          title="Toronto Immigration Lawyers you can Trust"
+          subTitle=""
         />
         <FullCTA 
           title="Making the immigration process easier. So you can focus on life."

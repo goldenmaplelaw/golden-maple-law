@@ -21,7 +21,8 @@ const OurTeam = () => {
         <Container>
           <Row>
             <Col md={5}>
-              <Tile 
+              <Tile
+                imgName="garry"
                 subject="Partner"
                 title="Garry Shapiro"
                 subText="Garry Shapiro is a partner of Golden Maple LLP, with over thirty years of experience. During his professional career, Garry was the senior real estate lawyer for one of Canada’s largest national banks; general counsel and vice president for a Mortgage, Finance and a Brokerage Company, and vice-president for a national title insurance company. He was also the senior real estate and business lawyer at a major Bay Street law firm for 12 years.  In addition to all that, Garry was a member of a municipal committee of adjustments for a three year term. He obtained his Civil and Common Law Degrees from McGill University, as well as a Masters Degree in Business Administration."
@@ -31,6 +32,7 @@ const OurTeam = () => {
             </Col>
             <Col md={{span: 5, offset: 1}}>
               <Tile
+                imgName="pushkar"
                 subject="Partner" 
                 title="Pushkar Prehar"
                 subText="Pushkar Prehar is a partner at Golden Maple Law LLP. After achieving his law degree at one of India’s prestigious law schools, Pushkar was called to the Bar in India. 

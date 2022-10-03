@@ -148,6 +148,30 @@ const Services = () => {
             <li>Loss of Refugee Status</li>
             <li>Overseas Resettlement Applications</li>
           </ul>
+
+          <h3>Federal Court Litigation</h3>
+          <ul>
+            <li>Applications for Leave and for Judicial Review</li>
+            <li>Stay Motions</li>
+            <li>Appeals to the Federal Court of Appeal</li>
+          </ul>
+
+          <h3>Immigration and Refugee Board Hearings</h3>
+          <ul>
+            <li>Admissibility Hearings</li>
+            <li>Detention Review Hearings</li>
+            <li>Refugee Hearings</li>
+            <li>Refugee Appeals</li>
+            <li>Sponsorship Appeals</li>
+            <li>Deportation Appeals</li>
+          </ul>
+
+          <h3>Consulting Services for Lawyers and Immigration Consultants</h3>
+          <ul>
+            <li>Preparation of Legal Memoranda</li>
+            <li>Legal Opinions</li>
+            <li>Advice on Litigation Strategy</li>
+          </ul>
         </Container>
       </>
     </Layout>
