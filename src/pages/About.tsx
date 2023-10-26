@@ -32,7 +32,7 @@ const About = () => {
             title="Making the immigration process easier."
             subTitle="We’re helping families thrive across the world with our customized, affordable legal services."
             primaryBtn="Contact"
-            primaryBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+            primaryBtnPath="mailto:admin@goldenmaplelaw.com"
           />
         </div>
       </Layout>

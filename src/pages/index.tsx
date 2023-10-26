@@ -41,7 +41,7 @@ const IndexPage = () => {
                 title="Immigration Law"
                 subText="Golden Maple Law is committed to making your immigration process smoother with services in permanent and temporary residence applications, admissibility matters, as well as citizenship applications. In cases of refused applications or delayed responses, we can help appeal the Immigration & Refugee Board, as well as provide judicial reviews to the Federal Court."
                 linkBtn="Contact Us"
-                linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                linkBtnPath="mailto:admin@goldenmaplelaw.com"
               />
             </Col>
             <Col md={4}>
@@ -50,7 +50,7 @@ const IndexPage = () => {
                 title="Business and Real Estate Advisory"
                 subText="Our team provides business and real estate legal consultation with respect to business immigration programs. Our team is connected with and resources Shapiro Real Estate & Business Lawyers on transactional matters."
                 linkBtn="Contact Us"
-                linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                linkBtnPath="mailto:admin@goldenmaplelaw.com"
               />
             </Col>
             <Col md={4}>
@@ -59,7 +59,7 @@ const IndexPage = () => {
                 title="Cross-Border Transactions"
                 subText="Golden Maple Law is focused on our mission of connecting people globally. Our team provides services to people currently residing in India, China, and Iran (and surrounding geographic areas such as Dubai, the UAE, and Turkey)."
                 linkBtn="Contact Us"
-                linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                linkBtnPath="mailto:admin@goldenmaplelaw.com"
               />
             </Col>
           </Row>

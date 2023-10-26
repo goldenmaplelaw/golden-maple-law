@@ -28,7 +28,7 @@ const WhyGoldenMapleLaw = () => {
                   title="For Families"
                   subText="."
                   linkBtn="Contact Us"
-                  linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                  linkBtnPath="mailto:admin@goldenmaplelaw.com"
                 />
               </Col>
               <Col md={4}>
@@ -37,7 +37,7 @@ const WhyGoldenMapleLaw = () => {
                   title="For Investors"
                   subText="."
                   linkBtn="Contact Us"
-                  linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                  linkBtnPath="mailto:admin@goldenmaplelaw.com"
                 />
               </Col>
               <Col md={4}>
@@ -46,7 +46,7 @@ const WhyGoldenMapleLaw = () => {
                   title="For Businesses"
                   subText="."
                   linkBtn="Contact Us"
-                  linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                  linkBtnPath="mailto:admin@goldenmaplelaw.com"
                 />
               </Col>
             </Row>
@@ -56,7 +56,7 @@ const WhyGoldenMapleLaw = () => {
             title="Making the immigration process easier."
             subTitle="We’re helping families thrive across the world with our customized, affordable legal services."
             primaryBtn="Contact"
-            primaryBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+            primaryBtnPath="mailto:admin@goldenmaplelaw.com"
           />
         </div>
       </Layout>

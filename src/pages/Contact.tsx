@@ -26,7 +26,7 @@ const Contact = () => {
                   <IconTile imgName="phone-solid" link linkPath="tel:647-509-0893" linkString="TEL: 647-509-0893" title="TEL: 647-509-0893"/>
                 </Col>
                 <Col md={12} className="hide-title">
-                  <IconTile imgName="email-solid" link linkPath="mailto:pushkar.prehar@goldenmaplelaw.com" linkString="EMAIL: pushkar.prehar@goldenmaplelaw.com" title="EMAIL: pushkar.prehar@goldenmaplelaw.com"/>
+                  <IconTile imgName="email-solid" link linkPath="mailto:admin@goldenmaplelaw.com" linkString="EMAIL: admin@goldenmaplelaw.com" title="EMAIL: admin@goldenmaplelaw.com"/>
                 </Col>
               </Row>
           </Container> 

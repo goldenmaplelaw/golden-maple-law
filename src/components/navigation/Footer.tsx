@@ -25,7 +25,7 @@ const Footer = () => {
             <Nav className="footer-col"
             >
               <Nav.Link href="tel:6475090893">TEL: 647-509-0893</Nav.Link>
-              <Nav.Link href="mailto:pushkar.prehar@goldenmaplelaw.com">pushkar.prehar@goldenmaplelaw.com</Nav.Link>
+              <Nav.Link href="mailto:admin@goldenmaplelaw.com">admin@goldenmaplelaw.com</Nav.Link>
               <Nav.Link href="https://www.google.com/maps/place/333+Sheppard+Ave+E+SUITE+210,+North+York,+ON+M2N+3B3,+Canada/@43.7658614,-79.3924302,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2d4f9f655555:0x6885aff92cc229e4!8m2!3d43.7658614!4d-79.3902415" target="_blank">333 Sheppard Ave East, Suite 210 Toronto, ON M2N 3B3</Nav.Link>
             </Nav>
           </Col>
@@ -51,7 +51,7 @@ const Footer = () => {
               Subscribe to Caravan Law to stay up to date with current leading insights on laws, trends, news, events, and services.
             </span>
             <div>FORM</div>
-            <PrimaryButton buttonText="Submit" buttonPath="mailto:pushkar.prehar@goldenmaplelaw.com"/> */}
+            <PrimaryButton buttonText="Submit" buttonPath="mailto:admin@goldenmaplelaw.com"/> */}
           </Col>
         </Row>
         <Row className="footer-lower-row">

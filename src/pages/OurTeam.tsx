@@ -30,7 +30,7 @@ const OurTeam = () => {
                 linkBtnPath="mailto:admin@goldenmaplelaw.com"
               />
             </Col>
-            <Col md={{span: 5, offset: 1}}>
+            {/* <Col md={{span: 5, offset: 1}}>
               <Tile
                 imgName="pushkar"
                 subject="Partner" 
@@ -41,9 +41,9 @@ const OurTeam = () => {
                 
                 He has practiced law in both jurisdictions and has expertise to deal with cross-border matters including Immigration, International law, Litigation among others. Pushkar helps clients solve their most complex problems, focusing on their best interests. He understands and cares for the individual needs of his clients."
                 linkBtn="Contact Us"
-                linkBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+                linkBtnPath="mailto:admin@goldenmaplelaw.com"
               />
-            </Col>
+            </Col> */}
           </Row>
         </Container>
         <ImgCTA
@@ -51,7 +51,7 @@ const OurTeam = () => {
           title="Our team. Your family."
           subTitle="The Golden Maple team is a diverse group of dedicated lawyers who all want to make the immigration process easier for families, investors, and businesses. Our team is well versed in immigration and business law, and we are prepared to take on any legal challenge - all in the hopes to accomplish our mission of connecting people globally. We’re a passionate group of professionals that celebrate client wins, as if you were our own family. Empathy is the main tenant of our team - and we are dedicated to solving your challenges as a team."
           primaryBtn="Contact"
-          primaryBtnPath="mailto:pushkar.prehar@goldenmaplelaw.com"
+          primaryBtnPath="mailto:admin@goldenmaplelaw.com"
         />
       </div>
     </Layout>

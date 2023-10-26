@@ -27,8 +27,8 @@ const Hero = ({ imgName, title, subTitle }: Props) => {
             {subTitle && ( <span className="hero-sub">{subTitle}</span> )}
             <div> 
               <Row>
-                <Col><PrimaryButton buttonText="Get Started" buttonPath="mailto:pushkar.prehar@goldenmaplelaw.com" /></Col>
-                <Col><SecondaryButton buttonText="Book Meeting" buttonPath="mailto:pushkar.prehar@goldenmaplelaw.com" /></Col>
+                <Col><PrimaryButton buttonText="Get Started" buttonPath="mailto:admin@goldenmaplelaw.com" /></Col>
+                <Col><SecondaryButton buttonText="Book Meeting" buttonPath="mailto:admin@goldenmaplelaw.com" /></Col>
               </Row>
             </div>
           </div>
