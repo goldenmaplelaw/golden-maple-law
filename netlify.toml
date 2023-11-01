@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build" # Specify the build command for your project
+  publish = "public" # Specify the directory to deploy (change to your build output directory)
+
+[context.production]
+  command = "npm run build" # Optional: Specify the build command for the production context
+
+[context.deploy-preview]
+  command = "npm run build" # Optional: Specify the build command for deploy previews
+
+[context.branch-deploy]
+  command = "npm run build" # Optional: Specify the build command for branch deploys
