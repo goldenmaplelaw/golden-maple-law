@@ -53,7 +53,7 @@ const OurTeam = () => {
             <Col md={5}>
               <Tile
                 imgName="jane"
-                subject="Partner"
+                subject="Paralegal"
                 title="Jane Li"
                 subText="Jane Li is a Licensed Paralegal in Ontario and a Regulated Immigration Consultant in
                 Canada. Starting in January 2016, Jane has been actively working in the field of immigration
