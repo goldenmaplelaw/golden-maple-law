@@ -19,7 +19,7 @@ const OurTeam = () => {
           title="Our team. Your family."
         />
         <Container>
-          <Row>
+          <Row className="our-team-row">
             <Col md={5}>
               <Tile
                 imgName="garry"
@@ -30,18 +30,50 @@ const OurTeam = () => {
                 linkBtnPath="mailto:admin@goldenmaplelaw.com"
               />
             </Col>
-            {/* <Col md={{span: 5, offset: 1}}>
+            <Col md={{span: 5, offset: 1}}>
               <Tile
-                imgName="pushkar"
+                imgName="fatima"
                 subject="Partner" 
-                title="Pushkar Prehar"
-                subText="Pushkar Prehar is a partner at Golden Maple Law LLP. After achieving his law degree at one of India’s prestigious law schools, Pushkar was called to the Bar in India. 
-
-                After immigrating to Canada, he obtained his license to practice Law in Ontario, Canada. He is qualified to practice in both India and the province of Ontario, Canada. 
-                
-                He has practiced law in both jurisdictions and has expertise to deal with cross-border matters including Immigration, International law, Litigation among others. Pushkar helps clients solve their most complex problems, focusing on their best interests. He understands and cares for the individual needs of his clients."
+                title="Fatima Mirabdolbaghi"
+                subText="Fatima Mirabdolbaghi completed her Bachelor of Law with Honors at the University of Leeds, a
+                member of the Russell Group Association in the UK, as well as a Bachelor Degree in Sociology
+                from York University. Since 2019 and upon her return to Canada, Fatima quickly integrated into
+                the Canadian legal profession. Her experience involved working in small and mid-sized law firms
+                as well as in-house environment. Fatima's background encompasses areas of Real Estate,
+                Corporate and Immigration Law. She understands the nuances and details necessary to
+                navigate legal complexities and can offer clients relatable and professional advice. Fatima is
+                committed to delivering top-tier service, underpinned by a broad legal education and a
+                dedication to upholding the interests and ambitions of her clients."
+                linkBtn="Contact Us"
+                linkBtnPath="mailto:fatima@goldenmaplelaw.com"
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={5}>
+              <Tile
+                imgName="jane"
+                subject="Partner"
+                title="Jane Li"
+                subText="Jane Li is a Licensed Paralegal in Ontario and a Regulated Immigration Consultant in
+                Canada. Starting in January 2016, Jane has been actively working in the field of immigration
+                after obtaining her Immigration Consultant License. She has extensive experience in Permanent
+                Residence Programs such as CECs & FSWs, PNPs and family sponsorships, as well as Temporary
+                Visa Programs such as LMIA &; Work Permits, Study Permits and Visitor Visa. Jane holds a
+                Bachelor's Degree in Science, with a specialization in the field of Mechanics. She also holds a
+                Juris Master's Degree from Liaoning University, China. Jane is fluent in English and Mandarin."
                 linkBtn="Contact Us"
                 linkBtnPath="mailto:admin@goldenmaplelaw.com"
+              />
+            </Col>
+            {/* <Col md={{span: 5, offset: 1}}>
+              <Tile
+                imgName="mo"
+                subject="Intern" 
+                title="Mohammad Mirabdolbaghi"
+                subText="Student-at-law."
+                linkBtn="Contact Us"
+                linkBtnPath="mailto:mo@goldenmaplelaw.com"
               />
             </Col> */}
           </Row>
