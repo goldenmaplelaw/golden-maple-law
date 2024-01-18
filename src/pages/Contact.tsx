@@ -23,14 +23,14 @@ const Contact = () => {
                   <IconTile imgName="international-icon" title="333 Sheppard Ave East, Suite 210 Toronto, ON  M2N 3B3"/>
                 </Col>
                 <Col md={12} className="hide-title">
-                  <IconTile imgName="phone-solid" link linkPath="tel:647-509-0893" linkString="TEL: 647-509-0893" title="TEL: 647-509-0893"/>
+                  <IconTile imgName="phone-solid" link linkPath="tel:416-323-7292" linkString="TEL: 416-323-7292" title="TEL: 416-323-7292"/>
                 </Col>
                 <Col md={12} className="hide-title">
                   <IconTile imgName="email-solid" link linkPath="mailto:admin@goldenmaplelaw.com" linkString="EMAIL: admin@goldenmaplelaw.com" title="EMAIL: admin@goldenmaplelaw.com"/>
                 </Col>
               </Row>
           </Container> 
-          <Container className="office-contact">
+          {/* <Container className="office-contact">
               <Row>
                 <BlockHeading textString="India Office" />
               </Row>
@@ -45,7 +45,7 @@ const Contact = () => {
                   <IconTile imgName="email-solid" link linkPath="mailto:admin@goldenmaplelaw.com" linkString="EMAIL: admin@goldenmaplelaw.com" title="EMAIL: admin@goldenmaplelaw.com"/>
                 </Col>
               </Row>
-          </Container>
+          </Container> */}
         </div>
       </Layout>
     )
